@@ -1,0 +1,63 @@
+{
+  "horizon_days": 21,
+  "entry_lag_days": 1,
+  "ic_stats": {
+    "mean_ic": 0.0554,
+    "std_ic": 0.0882,
+    "icir": 0.628,
+    "t_statistic_nw": 5.578,
+    "p_value": 0.0,
+    "ic_positive_pct": 0.688,
+    "n_periods": 64
+  },
+  "alpha_decay": {
+    "1d": {
+      "ic": 0.0324,
+      "p_val": 0.0011,
+      "n": 10197
+    },
+    "5d": {
+      "ic": 0.0387,
+      "p_val": 0.0001,
+      "n": 10196
+    },
+    "21d": {
+      "ic": 0.0476,
+      "p_val": 0.0,
+      "n": 10189
+    },
+    "63d": {
+      "ic": 0.0447,
+      "p_val": 0.0,
+      "n": 10034
+    }
+  },
+  "event_time_ls": {
+    "horizon_days": 21,
+    "mean_period_ls_return": 0.0096,
+    "ann_return": 0.0384,
+    "ann_vol": 0.0361,
+    "sharpe_ratio": 1.065,
+    "max_drawdown": -0.0519,
+    "t_statistic_nw": 4.196,
+    "hit_rate": 0.656,
+    "n_periods": 64
+  },
+  "regime_ic": {
+    "stress": {
+      "ic": 0.0234,
+      "p_val": 0.4197,
+      "n": 1188
+    },
+    "neutral": {
+      "ic": 0.0422,
+      "p_val": 0.0019,
+      "n": 5428
+    },
+    "risk_on": {
+      "ic": 0.0686,
+      "p_val": 0.0,
+      "n": 3573
+    }
+  }
+}
